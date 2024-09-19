@@ -5,6 +5,8 @@ module.exports = function (api) {
     plugins: [
       // Required for expo-router
       'expo-router/babel',
+      ["@babel/plugin-proposal-decorators", { "legacy": true }],
+      "nativewind/babel"
     ],
   };
 };
